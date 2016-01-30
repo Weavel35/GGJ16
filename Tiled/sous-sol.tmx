@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="45" height="48" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="tiles satanus" tilewidth="16" tileheight="16" tilecount="1000">
+  <image source="../Documents/tiles satanus.png" width="640" height="400"/>
+  <tile id="40">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="13" width="16" height="3.04348"/>
+   </objectgroup>
+  </tile>
+  <tile id="41">
+   <objectgroup draworder="index">
+    <object id="0" x="0.0869565" y="0.0434783" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="80">
+   <objectgroup draworder="index">
+    <object id="0" x="4" y="0.0434783" width="8.95652" height="15.913"/>
+   </objectgroup>
+  </tile>
+  <tile id="81">
+   <objectgroup draworder="index">
+    <object id="0" x="6" y="0.0434783" width="3.91304" height="15.913"/>
+   </objectgroup>
+  </tile>
+  <tile id="121">
+   <objectgroup draworder="index">
+    <object id="0" x="2.95652" y="-0.0434783" width="10" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="330">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0.25" width="16" height="15.25"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Colliders" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmEsOwzAIRH2d5ja9/2WqLqq6iAGGT5pFRrKUOga/OIDjrhXXQYz9t4715d2vGVvWrio5F8v81pO0q0pjZppldxZzxc9Z6y59P5JNW/duTvQO2diwYqWbOXOPsZ1k1t6xHCvXMZuTlfxk8n0ilyaYp2tWB7M1zoojtqE5I2uDmDXfx9bXWVO0HMkwI99oriyzx9TJnFUkxq7KLPfM7HtgGNlc8xg7ma18r+SaxVdh1uaK+o2OsezQ8yG/3vOfxfzWU+l/rF+h3M0wMzGPmLX+nduqNZ31ORLPiBndy+Qz8s+M28811loi5o8P2ZdhscahPcVbS+2e1sfU4SgzWx+iytThqrwc3sV+A7D1JComd9n8m2K2ZNUU2ddRtzsUZfb2VGQ7IWadWV8VMWtzJWb528pBzT5zJq1I7mvyLKqN1XygZvnLCnExzJ5/7UyeYZM+tT29g3mfA/ld4p5ViyJjO5gRN7M/yfk/19Z/xdImIy9fte98NH9kT5A2WTHfCpqtvJ6MjYiyzJaPqzGz8TQhL95R3YjaTDFn4r2SI7du3eL1ArkNajA=
+  </data>
+ </layer>
+ <layer name="caches" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt1UkKACAIAMB6Rv//aHSvm7bQDHQTCzQtBQAgR6unXwBx9DP8y///R0atZzkj7xm5ZmcVBwC3sJcA9jJ34Q0dCTYBoQ==
+  </data>
+ </layer>
+ <layer name="background" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmNsNwyAMRROpS2aObtAhO08+m1qAX9cOtD4SPylcDsiQqNv227z2uw10PPdPs47NZnVna7tmPRLWgHbO2HdPbfSyIuD2y5sbgdX5YPpkOGv6otq/OmfdBSs708adkZFzzzHaWVujGmdv/UbURrSzF4mzdW60ayv3Dmd0PVscRj6o+tGMy3aWPEc7W9YlceZ+a/VDkuWMvNOQztwzlLN0PVZnLhuN5QyXMxZvLZazbk5u3t43+azOmXechFmdEe9BLhvNaF8Qe0XHvu1RX5lXL7QzzYwgwpnmSpD+P0Cz0eeIy9Gc48h61qB15jIysDofi+1z6w6Z2Xmm96+GFZ2LosjlBFSH8QU=
+  </data>
+ </layer>
+ <layer name="grille" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt0LENACAMA8HADozK/qlpUwCR7ppvLUcAAPSw5usFAPxuj7PU+RIAAADgrgTvrwHw
+  </data>
+ </layer>
+ <layer name="collision" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmEFqAzEMRT2Qs6Q5TXclN8luaE4ZCr1LKENHoHy+ZVmW0y7ywbQzjOwXW5Zkl+LTl2q9itqN6LKU8rn8/r/9vQdse+1GdVken9+Wx3m32mm3PSjmZ8w7Mq9q7lrtQ9ne976ue5s578gclTDr52zh+o7qVuYyXyrrK2Pdgm02c0041sbSuyc3WXs5m/lGvtX7bpNnT9a+ie5PXMPafOB6Z2mU+d2IZRgLspTBbPU9g5n5ektR5p4cafkY5i0ZK8LM8oI1lrd51iuLeZvXjJzjYcZ4hfIyryTnRCR5SvNl+XPPnpPc5xHLPdfOmK25jsBscXjyuu7b8nHWN/uNjPlMaoSRGiIaG6VvzLv6vWVXY3gW86YDxMDa+rP3PfHZ6ruXGd+zOgLPRsLg9U+9jj0+P8rMfKlnrb11BPZ5MPxWry3mCp0/tC/NYGb+I++s8ynmCpY/euuvHl9GfxGN1mQW86xzVHQPe+xnMnv3bi3H1TT7XqA1pozLmD3n1b9kZt/Uzq14h5SpWr3nZfYokxlzhMRnxjPKPLrfa2NKfGa5gjFH4u2osEYSeZk1ixVT1uXx2xGhvZxJepitvi1u9vtaNaHuG+NTJjNy1+rVEzmnsJqwFH4HmsFscbfu8piQmY2VwSx9ZfgxY8a7xCxmUaTObzEfwY+OycwtRZjPYIPP/4nZ62ezmVsceM8k7dtoWbm3xeXJUaM2L730Ulw/CfyZ1g==
+  </data>
+ </layer>
+ <layer name="foreground" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt2WsKgCAQRtFaTauubUW0GJMgECkS8dOx7oH5a0PNI2oYAPTG+dgzAt8T1wKQI3emnDU36nJ6OnsWXRM6dzVmVYv8Unow7IfVx1Yptxr9DsOiZ+4KHq3eL+yKcizeS/VOeavJa27/WWrv9vQOAMC2lLkzCXfWUvrsSnkX94G8uyLIO9zNKi2+I+F/rNQT/2MAKBxJamJ9
+  </data>
+ </layer>
+ <objectgroup name="objet" visible="0"/>
+</map>
