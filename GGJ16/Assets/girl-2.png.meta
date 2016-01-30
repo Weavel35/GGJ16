@@ -1,0 +1,801 @@
+fileFormatVersion: 2
+guid: d46bd1758c93def4c8c1f39bf652a573
+timeCreated: 1454108456
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idle
+    21300002: idle2
+    21300004: idle3
+    21300006: idle4
+    21300008: idle5
+    21300010: idle6
+    21300012: girl-2_6
+    21300014: girl-2_7
+    21300016: girl-2_8
+    21300018: girl-2_9
+    21300020: girl-2_10
+    21300022: girl-2_11
+    21300024: girl-2_12
+    21300026: girl-2_13
+    21300028: girl-2_14
+    21300030: girl-2_15
+    21300032: girl-2_16
+    21300034: girl-2_17
+    21300036: girl-2_18
+    21300038: roll
+    21300040: girl-2_20
+    21300042: girl-2_21
+    21300044: girl-2_22
+    21300046: girl-2_23
+    21300048: girl-2_24
+    21300050: girl-2_25
+    21300052: girl-2_26
+    21300054: girl-2_27
+    21300056: girl-2_28
+    21300058: girl-2_29
+    21300060: girl-2_30
+    21300062: girl-2_31
+    21300064: girl-2_32
+    21300066: girl-2_33
+    21300068: girl-2_34
+    21300070: girl-2_35
+    21300072: girl-2_36
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 446
+        width: 100
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 30}
+        - {x: -29, y: 28}
+        - {x: -29, y: -26}
+        - {x: -23, y: -34}
+        - {x: 26, y: -34}
+        - {x: 26, y: 30}
+    - name: idle2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 444
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 30}
+        - {x: -26.5, y: 20}
+        - {x: -26.5, y: -13}
+        - {x: -22.5, y: -33}
+        - {x: 29.5, y: -33}
+        - {x: 29.5, y: 29}
+        - {x: 1.5, y: 30}
+    - name: idle3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 444
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 23}
+        - {x: 17.5, y: 27}
+        - {x: -9.5, y: 29}
+        - {x: -22.5, y: 29}
+        - {x: -30.5, y: 18}
+        - {x: -30.5, y: -12}
+        - {x: -26.5, y: -23}
+        - {x: -19.5, y: -33}
+        - {x: 12.5, y: -33}
+        - {x: 19.5, y: -25}
+        - {x: 25.5, y: 4}
+        - {x: 25.5, y: 16}
+    - name: idle4
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 444
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 29}
+        - {x: -28.5, y: 23}
+        - {x: -28.5, y: -31}
+        - {x: -18.5, y: -33}
+        - {x: 17.5, y: -33}
+        - {x: 26.5, y: -1}
+        - {x: 26.5, y: 17}
+        - {x: 18.5, y: 29}
+    - name: idle5
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 444
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 30}
+        - {x: -29.5, y: -26}
+        - {x: -27.5, y: -32}
+        - {x: -23.5, y: -33}
+        - {x: 17.5, y: -33}
+        - {x: 25.5, y: -7}
+        - {x: 25.5, y: 24}
+        - {x: 20.5, y: 30}
+    - name: idle6
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 444
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: -18}
+        - {x: -23.5, y: -33}
+        - {x: 26.5, y: -33}
+        - {x: 26.5, y: 31}
+        - {x: -22.5, y: 31}
+        - {x: -37.5, y: 13}
+    - name: girl-2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 35}
+        - {x: -41.5, y: 14}
+        - {x: -41.5, y: -9}
+        - {x: -21.5, y: -28}
+        - {x: -15.5, y: -31}
+        - {x: 26.5, y: -31}
+        - {x: 26.5, y: 22}
+        - {x: 20.5, y: 35}
+    - name: girl-2_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 367
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 37}
+        - {x: -43.5, y: 24}
+        - {x: -43.5, y: -19}
+        - {x: -36.5, y: -28}
+        - {x: 26.5, y: -28}
+        - {x: 26.5, y: 37}
+    - name: girl-2_8
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 370
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 31}
+        - {x: -41.5, y: 15}
+        - {x: -41.5, y: -26}
+        - {x: -34.5, y: -33}
+        - {x: 19.5, y: -33}
+        - {x: 26.5, y: -31}
+        - {x: 26.5, y: 24}
+        - {x: 23.5, y: 31}
+    - name: girl-2_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 370
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 34}
+        - {x: -38.5, y: 12}
+        - {x: -38.5, y: -13}
+        - {x: -16.5, y: -34}
+        - {x: 6.5, y: -34}
+        - {x: 26.5, y: -25}
+        - {x: 26.5, y: 34}
+    - name: girl-2_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 370
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 35}
+        - {x: -34.5, y: 20}
+        - {x: -34.5, y: -22}
+        - {x: -17.5, y: -33}
+        - {x: -0.5, y: -33}
+        - {x: 7.5, y: -32}
+        - {x: 26.5, y: -17}
+        - {x: 26.5, y: 33}
+        - {x: 20.5, y: 35}
+    - name: girl-2_11
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 370
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 35}
+        - {x: -29.5, y: 24}
+        - {x: -29.5, y: -24}
+        - {x: -28.5, y: -32}
+        - {x: 14.5, y: -32}
+        - {x: 26.5, y: -5}
+        - {x: 26.5, y: 25}
+        - {x: 23.5, y: 35}
+    - name: girl-2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 35}
+        - {x: -32.5, y: -20}
+        - {x: -29.5, y: -32}
+        - {x: 14.5, y: -32}
+        - {x: 27.5, y: -17}
+        - {x: 27.5, y: 34}
+        - {x: 21.5, y: 35}
+    - name: girl-2_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 296
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 34}
+        - {x: -29.5, y: 23}
+        - {x: -36.5, y: 7}
+        - {x: -36.5, y: -32}
+        - {x: 12.5, y: -32}
+        - {x: 28.5, y: -26}
+        - {x: 28.5, y: 21}
+        - {x: 18.5, y: 34}
+    - name: girl-2_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 296
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 30}
+        - {x: -28.5, y: 30}
+        - {x: -37.5, y: 14}
+        - {x: -37.5, y: -12}
+        - {x: -17.5, y: -31}
+        - {x: 18.5, y: -31}
+        - {x: 26.5, y: -16}
+        - {x: 26.5, y: 24}
+        - {x: 18.5, y: 29}
+    - name: girl-2_15
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 296
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 31}
+        - {x: -40.5, y: -10}
+        - {x: -36.5, y: -23}
+        - {x: -25.5, y: -31}
+        - {x: 8.5, y: -31}
+        - {x: 26.5, y: -23}
+        - {x: 26.5, y: 30}
+        - {x: 18.5, y: 31}
+    - name: girl-2_16
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 296
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 31}
+        - {x: -24.5, y: 31}
+        - {x: -39.5, y: 19}
+        - {x: -39.5, y: 4}
+        - {x: -38.5, y: -2}
+        - {x: -23.5, y: -23}
+        - {x: -12.5, y: -31}
+        - {x: 7.5, y: -31}
+        - {x: 22.5, y: -17}
+        - {x: 27.5, y: -6}
+        - {x: 27.5, y: 19}
+    - name: girl-2_17
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 296
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 22}
+        - {x: -40.5, y: 3}
+        - {x: -40.5, y: -27}
+        - {x: -33.5, y: -33}
+        - {x: 12.5, y: -33}
+        - {x: 26.5, y: -31}
+        - {x: 26.5, y: 22}
+    - name: girl-2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 4}
+        - {x: -16.5, y: 4}
+        - {x: -20.5, y: -6}
+        - {x: -20.5, y: -27}
+        - {x: -12.5, y: -32}
+        - {x: -9.5, y: -33}
+        - {x: 15.5, y: -33}
+        - {x: 18.5, y: -24}
+        - {x: 18.5, y: -1}
+        - {x: 13.5, y: 3}
+    - name: roll
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 222
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 4}
+        - {x: -22.5, y: -3}
+        - {x: -22.5, y: -26}
+        - {x: -12.5, y: -34}
+        - {x: 9.5, y: -34}
+        - {x: 17.5, y: -28}
+        - {x: 17.5, y: -4}
+        - {x: 12.5, y: 4}
+    - name: girl-2_20
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 222
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 13}
+        - {x: -26.5, y: 6}
+        - {x: -26.5, y: -21}
+        - {x: -22.5, y: -33}
+        - {x: 7.5, y: -33}
+        - {x: 18.5, y: -25}
+        - {x: 18.5, y: 6}
+        - {x: 17.5, y: 13}
+    - name: girl-2_21
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 222
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 20}
+        - {x: -39.5, y: 16}
+        - {x: -40.5, y: 11}
+        - {x: -40.5, y: -23}
+        - {x: -24.5, y: -33}
+        - {x: 20.5, y: -33}
+        - {x: 26.5, y: -23}
+        - {x: 26.5, y: 13}
+        - {x: 23.5, y: 20}
+    - name: girl-2_22
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 222
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 35}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: -13}
+        - {x: -24.5, y: -33}
+        - {x: 16.5, y: -33}
+        - {x: 16.5, y: 32}
+        - {x: 4.5, y: 35}
+    - name: girl-2_23
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 222
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 29}
+        - {x: -5.5, y: 29}
+        - {x: -22.5, y: 3}
+        - {x: -22.5, y: -33}
+        - {x: 42.5, y: -33}
+        - {x: 49.5, y: -27}
+        - {x: 49.5, y: 15}
+        - {x: 47.5, y: 24}
+    - name: girl-2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 28}
+        - {x: -5.5, y: 28}
+        - {x: -24.5, y: 17}
+        - {x: -24.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 49.5, y: -22}
+        - {x: 49.5, y: 10}
+        - {x: 47.5, y: 21}
+    - name: girl-2_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 148
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 28}
+        - {x: -24.5, y: -33}
+        - {x: 41.5, y: -33}
+        - {x: 49.5, y: -28}
+        - {x: 49.5, y: 20}
+        - {x: 38.5, y: 28}
+    - name: girl-2_26
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 148
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 37}
+        - {x: -46.5, y: 23}
+        - {x: -46.5, y: -17}
+        - {x: -34.5, y: -32}
+        - {x: 8.5, y: -32}
+        - {x: 25.5, y: -22}
+        - {x: 27.5, y: -15}
+        - {x: 27.5, y: 29}
+        - {x: 22.5, y: 37}
+    - name: girl-2_27
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 148
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 37}
+        - {x: -45.5, y: 11}
+        - {x: -45.5, y: -30}
+        - {x: 27.5, y: -30}
+        - {x: 27.5, y: 37}
+    - name: girl-2_28
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 148
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 30}
+        - {x: -49.5, y: 21}
+        - {x: -49.5, y: 2}
+        - {x: -44.5, y: -5}
+        - {x: -32.5, y: -17}
+        - {x: -13.5, y: -26}
+        - {x: 12.5, y: -26}
+        - {x: 22.5, y: -21}
+        - {x: 22.5, y: 12}
+        - {x: -3.5, y: 30}
+    - name: girl-2_29
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 148
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 0}
+        - {x: -33.5, y: -17}
+        - {x: -24.5, y: -23}
+        - {x: 22.5, y: -23}
+        - {x: 22.5, y: 11}
+        - {x: 13.5, y: 29}
+        - {x: -35.5, y: 29}
+        - {x: -49.5, y: 18}
+    - name: girl-2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 21}
+        - {x: -32.5, y: 21}
+        - {x: -49.5, y: 12}
+        - {x: -49.5, y: -19}
+        - {x: -42.5, y: -31}
+        - {x: -24.5, y: -31}
+        - {x: 13.5, y: -20}
+        - {x: 17.5, y: -15}
+        - {x: 17.5, y: 2}
+        - {x: 12.5, y: 16}
+    - name: girl-2_31
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 74
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 12}
+        - {x: -6.5, y: 17}
+        - {x: -37.5, y: 17}
+        - {x: -49.5, y: -4}
+        - {x: -49.5, y: -31}
+        - {x: -48.5, y: -32}
+        - {x: -41.5, y: -35}
+        - {x: -18.5, y: -35}
+        - {x: 15.5, y: -11}
+        - {x: 16.5, y: -6}
+        - {x: 16.5, y: 5}
+    - name: girl-2_32
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 74
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 1}
+        - {x: -35.5, y: 0}
+        - {x: -47.5, y: -13}
+        - {x: -47.5, y: -32}
+        - {x: -45.5, y: -33}
+        - {x: 18.5, y: -33}
+        - {x: 19.5, y: -31}
+        - {x: 19.5, y: -22}
+        - {x: -13.5, y: 1}
+    - name: girl-2_33
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 74
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 31}
+        - {x: -25.5, y: -19}
+        - {x: -21.5, y: -35}
+        - {x: 19.5, y: -35}
+        - {x: 21.5, y: -24}
+        - {x: 21.5, y: 25}
+        - {x: 15.5, y: 31}
+    - name: girl-2_34
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 74
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 32}
+        - {x: -25.5, y: -12}
+        - {x: -9.5, y: -37}
+        - {x: 9.5, y: -37}
+        - {x: 21.5, y: -14}
+        - {x: 21.5, y: 22}
+        - {x: 17.5, y: 32}
+    - name: girl-2_35
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 74
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 31}
+        - {x: -25.5, y: -19}
+        - {x: -21.5, y: -35}
+        - {x: 19.5, y: -35}
+        - {x: 21.5, y: -24}
+        - {x: 21.5, y: 25}
+        - {x: 15.5, y: 31}
+    - name: girl-2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 32}
+        - {x: -19.5, y: 32}
+        - {x: -25.5, y: 30}
+        - {x: -25.5, y: 0}
+        - {x: -16.5, y: -23}
+        - {x: -5.5, y: -37}
+        - {x: 7.5, y: -37}
+        - {x: 13.5, y: -30}
+        - {x: 24.5, y: -14}
+        - {x: 24.5, y: 21}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
