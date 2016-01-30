@@ -95,6 +95,7 @@ GameObject:
   - 4: {fileID: 244202107}
   - 212: {fileID: 244202106}
   - 50: {fileID: 244202105}
+  - 114: {fileID: 244202108}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -161,6 +162,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &244202108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 244202104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3200f9fb8441043ac76257263c5515, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: default
+  speed: 0
+  joystick: 
+  rb2D: {fileID: 0}
+  anim: {fileID: 0}
+  face: 
 --- !u!1 &1808424642
 GameObject:
   m_ObjectHideFlags: 0

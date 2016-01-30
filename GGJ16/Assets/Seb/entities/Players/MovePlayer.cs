@@ -5,7 +5,10 @@ public class MovePlayer : Entities {
 	public Rigidbody2D rb2D;
 	//public static bool developerConsoleVisible;
 	public Animation anim;
-	public string debug;
+	//Choisir le numéro du joueur
+	public string joystick;
+	public float speed;
+
 	//orientation du personnage
 	public string face;
 
@@ -24,43 +27,43 @@ public class MovePlayer : Entities {
 		//Debug.Log("x : "+x+", y : "+y);
 		if (x == 0 && y == 0) {
 			if (face=="down") {
-				debug = "idleDown_"+state;
+				//debug = "idleDown_"+state;
 				//animation.Play("idleDown_"+state)
 			}else if(face=="up"){
-				debug = "idleUp_"+state;
+				//debug = "idleUp_"+state;
 				//animation.Play("idleUp_"+state) 
 			}else if(face=="left"){
-				debug = "idleLeft_"+state;
+				//debug = "idleLeft_"+state;
 				//animation.Play("idleLeft_"+state) 
 			}else if(face=="right"){
-				debug = "idleRight_"+state;
+				//debug = "idleRight_"+state;
 				//animation.Play("idleRight_"+state) 
 			}
 			
 		}
 		else if(y>0 && x==0){
 			//animation.Play("walkUp_"+state)
-			debug="walkUp_"+state;
+			//debug="walkUp_"+state;
 			face = "up";
 		}
 		else if(y<0 && x==0){
 			//animation.Play("walkDown_"+state)
-			debug="walkDown_"+state;
+			//debug="walkDown_"+state;
 			face = "down";
 
 		}
 		if(x>0 && y==0){
 			//animation.Play("walk_"+state)
-			debug="walk_"+state;
+			//debug="walk_"+state;
 			face = "right";
 			transform.eulerAngles = new Vector3(0, 0, 0);//Normal
 		}	
 		else if(x<0 && y==0){
 			//animation.Play("walk_"+state)
-			debug="walk_"+state;
+			//debug="walk_"+state;
 			face = "left";
 			transform.eulerAngles = new Vector3(0, 180, 0); //Flipped
 		}
-		Debug.Log (debug);
+		//Debug.Log (debug);
 	}
 }

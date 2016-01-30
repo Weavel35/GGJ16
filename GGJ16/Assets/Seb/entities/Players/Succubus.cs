@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NewBehaviourScript : Entities {
+public class Succubus : Entities {
 
 	// Use this for initialization
 	void Start () {
@@ -10,14 +10,14 @@ public class NewBehaviourScript : Entities {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetAxisRaw ("Att_" + joystick)) {
+		/*if (Input.GetButton ("Att_" + joystick)) {
 			debug = "Att_" + state;
 		}
-		if (Input.GetAxisRaw ("Spe_" + joystick) && state == "default") {
+		if (Input.GetButton ("Spe_" + joystick) && state == "default") {
 			debug = "Spe_";
 		}
-		if (Input.GetAxisRaw ("Act_" + joystick)) {
+		if (Input.GetButton ("Act_" + joystick)) {
 			debug = "Act_" + state;
-		}
+		}*/
 	}
 }

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Vampire : Entities {
+public class Vampire : MovePlayer {
 
 	// Use this for initialization
 	void Start () {
