@@ -36,6 +36,7 @@ public class ChangeZone : MonoBehaviour {
 		player collisionPlayer = coll.GetComponent<player>();
 		if(collisionPlayer!=null)
 			if(collisionPlayer.isTeleported && !collisionPlayer.tpOrigin.Equals(thisCollider)) {
+				collisionPlayer.tpOrigin = null;
 				collisionPlayer.isTeleported=false;
 			}
 	}

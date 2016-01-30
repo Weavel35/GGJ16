@@ -18,8 +18,8 @@ public class SimpleMove : MonoBehaviour {
 	void Update() {
 
 
-		float inputX = Input.GetAxis("Horizontal");
-		float inputY = Input.GetAxis("Vertical");
+		float inputX = Input.GetAxis("Horizontal_1");
+		float inputY = Input.GetAxis("Vertical_1");
 
 		//anim.SetFloat("SpeedX", inputX);
 		//anim.SetFloat("SpeedY", inputY);
@@ -33,8 +33,8 @@ public class SimpleMove : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		float lastinputX = Input.GetAxis("Horizontal");
-		float lastinputY = Input.GetAxis("Vertical");
+		float lastinputX = Input.GetAxis("Horizontal_1");
+		float lastinputY = Input.GetAxis("Vertical_1");
 
 		/*if(lastinputX!=0||lastinputY!=0) {
 			anim.SetBool("walking", true);
