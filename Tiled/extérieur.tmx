@@ -54,7 +54,7 @@
  </tileset>
  <layer name="Colliders" width="45" height="48">
   <data encoding="base64" compression="zlib">
-   eJztmAEOwiAMRTHqYeQ2XsfTqzFLkBT4Lb/Asv2kMWOUvi2jLYZwaoTix26JRce1ey0mlsdhMiN6gPYKazBHo9XiID69zFq1GLexa/h9U3cyC4P5KczJx1Z7z3tlTvfqNmaJM4qZ6XMy//tI+ZsRx5Kf0XW1Odia+xGWHiH+ac6Wrj1ievrPiKnxR3uc1l4ZxczocbQxayzMeYiPZ96wxEF8PGP2+h+V2brPNXEQH2m8NNZTy2L2i6jGXDpzaPYZwlxa2/IepFrqdUYapZN5jFBmRi/BkqUnZ/fMWnmsfxRmzbe1ArO1hjHVewZcnfkS5Dpdy0ez84a27muYv2r1AQzVeFDm0TWQwYzOYYn1nqU5XnUaZW5971Iu8qrRGmbpfu1eOofZI6F5I4/bypXpc8zqkZBnQplG7NfZdXCV9ffKrP2fVGNezN72BmAHSuE=
+   eJztmAEOwiAMRTHqYeQ2XsfTqzFLGCnwW36Bxf2kMRJK38hoy0I4NULxY7fEouPavRYTy+MwmRE9QHuFNZij0WpxEJ9eZq1ajNvYNfzeqTuZhcH8FObkY6vt81GZ07O6jVnijGJm+pzMex8pfzPiWPIzuq42B1tzP8LSI8Q/zdnSf4+Ynv4zYmr80R6ndVZGMTN6HG3MGgtzHuLjmTcscRAfTUypx+iNb/Hx3Kdefwaz9Zxr4iA+0nhprKeWxewXUY25dOfQnDOEubS2ZR+kWup1Rxqlk3mMUGZGL8GSpSdn98xaeaz/L8yad2sFZmsNY6r3Drg68yXIdbqWj2bnDW3d1zB/1eoDGKrxoMyjayCDGZ3DEmufpTledRplbr3vUi7yqtEaZun7cokr92X2SGjeyOO2cmX6HLN6JOSZUKYR53V2HVxl/aMya7+TasyL2dveJ1NLgw==
   </data>
  </layer>
  <layer name="background" width="45" height="48">

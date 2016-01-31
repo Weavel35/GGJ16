@@ -8,6 +8,9 @@ public class SimpleMove : MonoBehaviour {
 	public Vector2 speed = new Vector2(1,0);
 	private Rigidbody2D rigibody;
 
+	public string horizontal;
+	public string vertical;
+
 	void Start() {
 
 		startPosition=transform.position;
@@ -18,8 +21,8 @@ public class SimpleMove : MonoBehaviour {
 	void Update() {
 
 
-		float inputX = Input.GetAxis("Horizontal_1");
-		float inputY = Input.GetAxis("Vertical_1");
+		float inputX = Input.GetAxis(horizontal);
+		float inputY = Input.GetAxis(vertical);
 
 		//anim.SetFloat("SpeedX", inputX);
 		//anim.SetFloat("SpeedY", inputY);
@@ -33,8 +36,8 @@ public class SimpleMove : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		float lastinputX = Input.GetAxis("Horizontal_1");
-		float lastinputY = Input.GetAxis("Vertical_1");
+		float lastinputX = Input.GetAxis(horizontal);
+		float lastinputY = Input.GetAxis(vertical);
 
 		/*if(lastinputX!=0||lastinputY!=0) {
 			anim.SetBool("walking", true);
