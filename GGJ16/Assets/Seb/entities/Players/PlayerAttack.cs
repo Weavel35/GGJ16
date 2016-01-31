@@ -5,7 +5,6 @@ public class PlayerAttack : MonoBehaviour
 {
 
     private bool attacking = false;
-
     private float attackTimer = 0;
     private float attackCD = 0.3f;
 
@@ -21,13 +20,11 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-		//if (Input.GetButtonDown("Att_"+joystick) && !attacking)
         {
             attacking = true;
             attackTimer = attackCD;
             attackTrigger.enabled = true;
         }
-
         if (attacking)
         {
             if (attackTimer > 0)
@@ -38,13 +35,9 @@ public class PlayerAttack : MonoBehaviour
             {
                 attacking = false;
                 attackTrigger.enabled = false;
-
             }
         }
-
         anim.SetBool("Attack", true);
-
-
     }
 
 }
