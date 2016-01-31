@@ -4,13 +4,17 @@ using System.Collections;
 public class MovePlayer : Entities {
 	public Rigidbody2D rb2D;
 	//public static bool developerConsoleVisible;
+<<<<<<< HEAD
+=======
 	public Animator anim;
 <<<<<<< HEAD
 =======
+>>>>>>> origin/master
 	//Choisir le numéro du joueur
 >>>>>>> seb
 	public string playerType;
 	private bool isMoving;
+	private Animator anim;
 	private int Direction;
 
 

@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 03dee3d04d83fb3459afe02412b26054
+timeCreated: 1454240620
+=======
 guid: 2b8c2cffa587d8d4aa5aff6972a4e152
 timeCreated: 1454240187
+>>>>>>> seb
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
