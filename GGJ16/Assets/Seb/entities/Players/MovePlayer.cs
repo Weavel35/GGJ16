@@ -5,9 +5,6 @@ public class MovePlayer : Entities {
 	public Rigidbody2D rb2D;
 	//public static bool developerConsoleVisible;
 	public Animator anim;
-	//Choisir le numéro du joueur
-	public string joystick;
-	public float speed;
 	public string playerType;
 	private bool isMoving;
 	private int Direction;
@@ -58,5 +55,17 @@ public class MovePlayer : Entities {
 			anim.SetBool ("Move",isMoving);
 		}
 
+	}
+		void OnTriggerEnter2D(Collider2D other)
+		{
+			if (other.gameObject.CompareTag("Virgin"))
+			{
+			/*other.gameObject.SetActive (false);*/
+			Destroy (other);
+
+			anim.SetBool("Virgin",true);
+
+			Debug.Log ("coucou");
+			}
 	}
 }
