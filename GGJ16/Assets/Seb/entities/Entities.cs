@@ -4,7 +4,20 @@ using System.Collections;
 public abstract class Entities : MonoBehaviour {
 	//etat du personnage, prend "default ou "virgin", animation nommée en accord
 	public string state="default";
+	public float speed;
+	//Choisir le numéro du joueur
+	public string joystick;
+	public string debug;
+	
+	public int cureHealth = 1;
+	
+	public void Damage(int dmg)
+    {
+        cureHealth -= dmg;
 
+    }
+	
+	
 	// Use this for initialization
 	void Start () {
 	

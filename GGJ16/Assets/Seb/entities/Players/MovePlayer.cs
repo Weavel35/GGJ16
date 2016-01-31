@@ -5,8 +5,6 @@ public class MovePlayer : Entities {
 	public Rigidbody2D rb2D;
 	//public static bool developerConsoleVisible;
 	//Choisir le numéro du joueur
-	public string joystick;
-	public float speed;
 	public string playerType;
 	private bool isMoving;
 	private Animator anim;
