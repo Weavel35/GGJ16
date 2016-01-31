@@ -75,7 +75,7 @@
    eJztzrENwCAUQ0FHbBICu2dLfpkNiNCd9BpXTgAAAAAAAPh6r90PAOA/7pb06qlGNdu+7WQL2tcGAA==
   </data>
  </layer>
- <objectgroup name="objects" visible="0">
+ <objectgroup name="objects">
   <object id="4" type="porteIn" gid="418" x="283.667" y="176" width="16" height="16"/>
   <object id="6" type="porteIn" gid="418" x="272" y="544" width="16" height="16"/>
   <object id="7" type="porteIn" gid="418" x="64.3333" y="592" width="16" height="16"/>
