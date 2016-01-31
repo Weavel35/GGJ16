@@ -74,7 +74,7 @@
  </layer>
  <layer name="foreground" width="45" height="48">
   <data encoding="base64" compression="zlib">
-   eJztmQ0KgzAMhVOv4hHmLj3wDLvLfu9QGayDwWpwZIF0bfR9EIQq8ij5eVWiOQeyYzR8F9ger1ycfgyvuabRveuIhhT7rpgcAAAoxree7rV/S/CejR4OcjQeZ+21ooHvW4t7wms80lzz4/+S1EBzGaS6b1FzayzN0nxtcDhjj6G2AuAdeAlQAw+ejBPf16mqCh3eNOc6+/D5x2DVjyQfYEGUH1kt8KI28FzM++VS3kv3a5Cfrbyg0VzLI/HZKekC28Hrt+JzmvWXFNcUtxSn0O7a3em5+wn7qaAA
+   eJztmQ0KgzAMRlOv4hG2nXV3GOwMu8t+71AR1sFgNThioLVN/R4EQUUeJU1SJJpyonScE34LbI9PLg4Lw2quabx3HdE+xKHLpgMAANn4V9Ot1m8JXrNRw0GMZsZpfa9o4OtW45rwPe5p6jyur6QGznmQ9n2NzrUx10ut99ejK22g52LQuWUwS4ASWJjJOP57HYpa6LDmHHv27vePIVU9WmMO8PIrzYJZNA08F+N6OZf30vMSxGcrK2icS81IvHdKXmA7WD3L3kKvv4d4hHiGuLp6772MnmHfgWygYg==
   </data>
  </layer>
  <layer name="grille foreground" width="45" height="48">
