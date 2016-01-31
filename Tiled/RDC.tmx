@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="45" height="48" tilewidth="16" tileheight="16" nextobjectid="20">
+ <tileset firstgid="1" name="tiles satanus" tilewidth="16" tileheight="16" tilecount="1000">
+  <image source="../Documents/tiles satanus.png" width="640" height="400"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="0" x="15.9375" y="-0.6875">
+     <polygon points="0,0 -16.625,16.625 0.125,16.625"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="40">
+   <objectgroup draworder="index">
+    <object id="0" x="0.0869565" y="13.087" width="15.913" height="2.95652"/>
+   </objectgroup>
+  </tile>
+  <tile id="41">
+   <objectgroup draworder="index">
+    <object id="0" x="0.0869565" y="0.0434783" width="16.288" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="80">
+   <objectgroup draworder="index">
+    <object id="0" x="4" y="0.0434783" width="8.95652" height="15.913"/>
+   </objectgroup>
+  </tile>
+  <tile id="81">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.0625" y="0.1875" width="16" height="8.125"/>
+   </objectgroup>
+  </tile>
+  <tile id="120">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="8.0625" width="15.875" height="7.875"/>
+   </objectgroup>
+  </tile>
+  <tile id="121">
+   <objectgroup draworder="index">
+    <object id="0" x="0.0869565" y="0.0434783" width="15.913" height="15.913"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Colliders" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzVWW2uwzAI69tt1tt0t9nt369ICBkwhKSdpUpTPoibYKDZcfA4m8d14XSeqB+N28X5arS1A53r7LKF+t7gmV1Hjpn1txNws2xIoPdgOWd80eKM3o+ZN/A22lkOs+MjfrJtnM34/dfEYWa8N68a6+7mLHGR9u/k/CnaZzlIv6sAzfsW+aA4NSDbrZiVqSd0vLbaGFseH0sjVj3BrhPlAhaRToZGUExn9dMNRtveXjyFs9b2L3DW2l7NueLPMn4gbZ+gLRsH2VqM0SY7d1bzbD0y/NLT94q8ydqI/PKJnKM83s25Iw9EeXyWM6sbz4bUuZfHI31n+Fyiz7Llca7onEXkC9a36S5tsGDP7ElgY/2T0HXuu32DGcNoKquvKrrX+BXOldoqQhRfO+xXYi+ay+axWTA1W3Z9Jvd6956oXz7fo+4bY7x1r4n4M+eSyclVzigGof7xO7pLXR0L0H56dYbuk+eMxq9EVK9JztYd02hj7mQ7kNlnyx+rPloFy7kyb9W7VDijeIHGRN8IVei62Lu/kPv2Uu3ILpq3049Yf85w2hEbZ/531ee3I8boPcnyv8s3ovt679kVByWytcQd+6rxD/BdW6o=
+  </data>
+ </layer>
+ <layer name="caches" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt10ENADAMAsBOxvwbrYV9SJZwZ4AfLTMAf7mnIxMAAOiR3Bz2DAD0SN19/wSQpGPg3QIsPgC3
+  </data>
+ </layer>
+ <layer name="background" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmUtOwzAURW1YDN0KE1bDsBPEpytAYgMMUn4rQYhfqpaVMGpvhGgtx07e8yd5lnKlK1VuYh+92Nd1enGk1CV8BV/DN7BkLcBXwQ/wI/wEP3cwf2havxXxuhC9gO8d/oS/4G+4huc6jXNoBb5fR10lMzeiMLs0NLM531zMNpuv3eYLZeY+u5zMVO7UzNRxYiSBmZqJEpilzGfqOMuI3OBmkIQ6+/o120xt4bXDKnG+UkVdI2/6z5U+fB5L1DkSmqsTs5vFXtslMA9V55+42/dMfd/HMPtqUhGylst8hvZb5POpbvuOkduUPWFJZO7rp2EO3VO4zNQ6j8Xs2sdTMqfQkHWe6cO+59oLqfthzoy0+zw/jq9LbmZbW+J7AUmamIdRicyNUjFzz60x4marhGcyMZfDTP3NxmGI5c4te4zSmM0xu7LI95zHyGhzvC4GKWuLwyxJoczNPMr531OXKMy1Zfu+vn4lMJvX+M5eOZn37ziV472nwWy2bwymE92+byZgrdaOtv/xX3X7vHgvIGPs+cD1GCqRWQUyT+JpBz24fMM=
+  </data>
+ </layer>
+ <layer name="colision" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzVWF1SAjEM7i6cxB/gKoDU23gTGJ98Y/AyCk8KehJfwHamHUJM2nTbXZdvJmONbfPZzV+r1CVORg6FRFWqE2hjZ+tkB8ZbZ39bxcXP0x1yHhay1SXnrvfK9beSnEeCvbTA12L+NiZ01vYUiPT/2gg5p/giZXtZK7Wqz/wsnuv4Oqh7yeRQcn5o3RGM934gPOdc203XaaHv5XIoyRnH2/AKODedl8rhqSBnKu4kfKg8RWHvpClnys7+r0pNBPsvaz6HvlfnOLFYu9+p2InFj7ezQj+x4BwZQyyHDgFnnNOl8VMaktjWAW594UzN6TtnHNslOFN3hO+IjquPR0KHY9vmDS7XSGLegurLrG7n1vt7w6iKx7ffa+3+/sbsbWFjfI5iXopYrGOE4ruNGiTdg+qboV/2kXNsXi5nGENU7MTuz03qOMdNUscnqA76b8r5vdQOVcehjovvJVFPLXBthXXwtcE3mzF7h2SR6ZNd+X1JwDzOfbO+cYb+vL4izjHYOOvLG92plnGmauh/vdFJOafgGjmn3te4t2POx0pxlvRsHLj3Om6f0ufc5E6W2ntYzlSfnYoDGEv7bovPwPyjov3FnzP8JiMiT+N30ZCk3LV9f2GxAlws/DnjnHRC/QYHyZtsCcR6P8gZIuUdtjTg+YU4417yQ53fmTy+WuJIcaLGUGc5w551Xl3ei7TTQR+F+bR0nZZy/kExsxGs2zlps4amcJbs632O6p1y/Aj6KfdmaTnj2plik+qd2s4xVH7meui+QJqfU9B2jinRb+iMOtgEVH5ORUp/QeFuoNS9kZGRGyO3g7BubGRqZG7kwcjCiDYy67Hu0cgvTy0b5w==
+  </data>
+ </layer>
+ <layer name="grille" width="45" height="48" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzkENAAAIBCDt38tcZvDlboMEVAEAAAAAAAAAH6a/B3eJ5wQLxJgBjw==
+  </data>
+ </layer>
+ <layer name="forground" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmOsNgkAMxwvuoq5iTJxGF/C1An5yAF9j+NX4RHEGV1CLgh546vHukf6Sfy4pgSvQa3sHkC1DE6CL6qH6qIGZzJYHC5xngpqiZqi5mcyWBwecZ4PaonaovZnMRoFbhs89CQIjo4liUjPevjmerarg45jIezTQDwtjaBQxjqj4r8IrdoBmDDHlxM1d55SfmWTdfcuhNjz9PH3cER0xH/o6wqetzmuQYbTiCsE+x/bGQH8msYWv5UnLyzMrHNfGc5TRqeTn0z9axHKjSs2h5rMKRfoct47L6mtWtVW2fn/ZVPH3HA3Bz3aK688qaE+s656IYRj9EM/GmHIh1lh3b+6ErofPRX8pLjYE+33K+D1FU6ManAZuz/E4YyL+3t/i0T93ohZjlPaDDF0oxq4KF+L5QkZUn8M1soj/tNTkO6v2ElTO9XTkDqdZmJI=
+  </data>
+ </layer>
+ <layer name="forground 2" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztysEJwCAQRcEVO9EkvaccO3KvQu4BnYF32M9GAAAAAAAAnG2U9X7L9x8AnKjViJ5d2Z099b9tZxPhXwbS
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="4" type="porteIn" gid="418" x="283.667" y="176" width="16" height="16"/>
+  <object id="6" type="porteIn" gid="418" x="272" y="544" width="16" height="16"/>
+  <object id="7" type="porteIn" gid="418" x="64.3333" y="592" width="16" height="16"/>
+  <object id="9" type="porteIn" gid="418" x="336.333" y="352" width="16" height="16"/>
+  <object id="10" type="porteIn" gid="418" x="416.333" y="320" width="16" height="16"/>
+  <object id="13" type="table" gid="300" x="375.333" y="344" width="16" height="16"/>
+  <object id="14" type="porteIn" gid="418" x="640" y="256" width="16" height="16"/>
+  <object id="15" type="table" gid="300" x="688" y="256.333" width="16" height="16"/>
+  <object id="16" type="table" gid="300" x="559.667" y="124.333" width="16" height="16"/>
+  <object id="17" type="table" gid="300" x="623.667" y="124.667" width="16" height="16"/>
+  <object id="18" gid="420" x="608" y="304" width="16" height="16"/>
+ </objectgroup>
+</map>

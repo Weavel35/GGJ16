@@ -13,14 +13,14 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Outside
+  - Floor0
+  - Floor1
+  - Floo2
+  - roof
+  - Basement
+  - UpBody
+  - DownBody
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: upstairs
+    uniqueID: 3478117155
+    locked: 0
+  - name: inside
+    uniqueID: 3140682261
+    locked: 0
+  - name: Floor
+    uniqueID: 592465395
     locked: 0

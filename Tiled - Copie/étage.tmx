@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="45" height="48" tilewidth="16" tileheight="16" nextobjectid="15">
+ <tileset firstgid="1" name="tiles satanus" tilewidth="16" tileheight="16" tilecount="1000">
+  <image source="../Documents/tiles satanus.png" width="640" height="400"/>
+  <tile id="40">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="13" width="15.913" height="3.04348"/>
+   </objectgroup>
+  </tile>
+  <tile id="41">
+   <objectgroup draworder="index">
+    <object id="0" x="0.0869565" y="0.0434783" width="16" height="15.913"/>
+   </objectgroup>
+  </tile>
+  <tile id="80">
+   <objectgroup draworder="index">
+    <object id="0" x="4" y="0.0434783" width="8.95652" height="15.913"/>
+   </objectgroup>
+  </tile>
+  <tile id="81">
+   <objectgroup draworder="index">
+    <object id="0" x="6.08696" y="0.0434783" width="3.82609" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="121">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0.0434783" width="16" height="15.913"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="background" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmFsOwiAQRW3/dDndl67AH99rsb7W4nslJvqlYyKRNNDCdKBMMie5URHhdNqCOsl7vRlkDllAlhBXxln9+2q8qWEObNsKsoZsIFvIDrL3dNa91fPi96jGKw1zYNsOkCPkDLlArpBb/ndpGzXeyTAHtu0OeRnqSuUcgreHM+a4KOlnbs51UDr7nruq8xBej3JezpTziLM4c3IeMHN28cD09XUuPOYJhatzm/MqzuJs44E4vmfNZ7DrBlWdMfd0rLXOZ31tqkesOqfg7Ovu4oN1Lhk6u9RZv28onfV+bVC/rbDXXtWHok8TlM6xEOc4iHMcXJwx4eYcGnHm6RwDLuuG/h2Ig3PVRZzDYHM2kcJ/Sl9cnVOpsQmMc9fXDbbOKewpNicbXe4tFPtgbLg6c4Or8wfW559N
+  </data>
+ </layer>
+ <layer name="collision" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmWtOwzAMx9s9GOfY2OPL2MQdkHiWk7BxIg6AxGlAgsE5kBASD1s0mmecJu7SdEP7SxZrl6a/uY7tlCRZ1R3YE9hCaa/s+AXsPomj40aSTFKdTcEycozCvyeNeMyoVqq7LhPGx2bWqiyzJhYx3t6F+8RmxvuNPeIP1bbEm8T8ADZrLO0xMLNG0pzXORfKMN6wcR/CXHUy++i/MA+2gLmTrvp2fwuYMX9LvtXOX2dslJ2/DPNb+jenu3oFw7zwmN8lzFNzsF76m0N5Xsb4a+fPc5znZ/ydh6xPQPt03GfmYTxHumR8QfsGno8Ms6Qi5qrkk0N3zOuLM3+DjSpgltaway8g9WYSM/LuKZh98yDdI0yFXiwTvrPNjcw0R7SF34bX8hxg5PIJZS6Spg/xyftFvpyk9n6VqmrmAXt2Pv2zK675eOy1sT5Q4/12GT+bnI3XSnub52S5Xn2Z6ZxlxtiYb4U1iOP4upmQ+Nf62efZ2Ziv8xruqq2uuHcx832NVK/NmHnJms61LnMd2jHHkYtZqsu8HtO6HEMuZul9SSacc9Xl0MzSvaVab0Rrm/a9Xgj57u2oivausfysVWcLmYsUM56TZHV9meOhMl5DMtNeiL4LoH5u5cx0XUl9ms1C1GUq488j9i6Axwbvd+usKZzNxvxlGVeHfJlHrBfcBGYTq4alK8SlWYP4mcenWRcx/pdm8zMX7c+lHEDrZtXPIBQzlfbdpFY8Bvr58/8W7mtj4t9L/VOM+Oc9Gu2NJKai3qkVkTlkbxaLeR3xOtkP+Ptt0vYTB03gAhuAdZu/fuXnes3qzg3BTsHOwS7ALsEysLMNPncF9gN5HfvX
+  </data>
+ </layer>
+ <layer name="forground" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt2F0KgkAQB/BRzxEEPUd0iM7TS14q6DQFkV4keqkVE6dlsynN3Vn/PxgyEBk/dnZnifS7+U4AVLmbuLCgxGs6TsXz90x1jkePuXxjm/rOACqhftcQn6ZG2VHSax3rw3V9OwBAH2mN4HWm+HDuvy3N3Lo2seqYY/OMaJG0caL+dXBIfB387nlu0vo+tanuDeuf8DRjuGv8Ss6R2GU9L8BI+hr0PqDNdaQa6eoRfM/hY5qjNkSFf88lhb+f2LDXcvy/pMee2ridKg3vmo9BDXJrPbpnx4dRM4nHEL3CDHMzCIW0BxU66XoCe/m/ewB/xVuS
+  </data>
+ </layer>
+ <layer name="forground2" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztyLkNADAMxLADvEm+/UeMB0iZkgTUKAEAAAAAAAAAeBuVzG51uzv1/5FcxTED0A==
+  </data>
+ </layer>
+ <objectgroup name="objets">
+  <object id="2" type="table" gid="340" x="248" y="118.667" width="16" height="16"/>
+  <object id="4" type="porteIn" gid="420" x="32" y="560" width="16" height="16"/>
+  <object id="5" type="porteIn" gid="420" x="96" y="560" width="16" height="16"/>
+  <object id="6" type="table" gid="300" x="224.5" y="496" width="16" height="16"/>
+  <object id="7" type="porteIn" gid="418" x="240" y="191.5" width="16" height="16"/>
+  <object id="9" type="porteIn" gid="420" x="592.121" y="304.121" width="16" height="16"/>
+  <object id="12" type="table" gid="418" x="640" y="351.5" width="16" height="16"/>
+  <object id="13" type="table" gid="300" x="689" y="250" width="16" height="16"/>
+ </objectgroup>
+</map>
