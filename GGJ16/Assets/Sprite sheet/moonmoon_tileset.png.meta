@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 925d58ddd4112ff468dd2d9e8b5b09bf
-timeCreated: 1454201327
+timeCreated: 1454208304
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -209,7 +209,7 @@ TextureImporter:
     - name: moonmoon_walk_left1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 36
         y: 37
         width: 16
         height: 16
@@ -220,7 +220,7 @@ TextureImporter:
     - name: moonmoon_walk_left2
       rect:
         serializedVersion: 2
-        x: 55
+        x: 54
         y: 37
         width: 16
         height: 16

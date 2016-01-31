@@ -6,8 +6,6 @@ public class MovePlayer : Entities {
 	//public static bool developerConsoleVisible;
 	public Animator anim;
 	//Choisir le numéro du joueur
-	public string joystick;
-	public float speed;
 	public string playerType;
 	private bool isMoving;
 	private int Direction;
