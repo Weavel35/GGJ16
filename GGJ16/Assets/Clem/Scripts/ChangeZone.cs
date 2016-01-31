@@ -4,6 +4,7 @@ using System.Collections;
 public class ChangeZone : MonoBehaviour {
 	
 	public ChangeZone Destination;
+	public bool blocked = false;
 	public Collider2D thisCollider { get; set; }
 	// Use this for initialization
 	void Start () {
@@ -18,6 +19,9 @@ public class ChangeZone : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D coll) {
+		if(blocked)
+			return;
+
 		player collisionPlayer = coll.GetComponent<player>();
 		if(collisionPlayer!=null)
 			if(!collisionPlayer.isTeleported ) {
