@@ -10,6 +10,7 @@ public class ActionPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		
 	
 	}
 }

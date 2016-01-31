@@ -9,6 +9,8 @@ public class MovePlayer : Entities {
 	public string joystick;
 	public float speed;
 	public string playerType;
+	private bool isMoving;
+	private int Direction;
 
 
 	void Start() {
@@ -17,7 +19,12 @@ public class MovePlayer : Entities {
 		anim = GetComponent<Animator>();
 		anim.SetBool ("Virgin", false);
 		//Défini la direction 0:top, 1:right, 2: bottom, 3:left
-		anim.SetInteger ("Direction",0);
+		Direction = 0;
+		anim.SetInteger ("Direction",Direction);
+		isMoving = false;
+		anim.SetBool ("Move", isMoving);
+
+
 	}
 	void Update()
 	{
@@ -27,43 +34,29 @@ public class MovePlayer : Entities {
 
 		//Debug.Log("x : "+x+", y : "+y);
 		if (x == 0 && y == 0) {
-			anim.SetBool("Move",false);
-			/*if (face=="down") {
-				//debug = "idleDown_"+state;
-
-			}else if(face=="up"){
-				//debug = "idleUp_"+state;
-				animation.Play("idleUp_"+state); 
-			}else if(face=="left"){
-				//debug = "idleLeft_"+state;
-				//animation.Play("idleLeft_"+state) 
-			}else if(face=="right"){
-				//debug = "idleRight_"+state;
-				//animation.Play("idleRight_"+state) 
-			}*/
-			
+				isMoving = false;
+		} else {
+			isMoving = true;
 		}
-		else if(y>0 && x==0){
-			//animation.Play("walkUp_"+state)
-			//debug="walkUp_"+state;
-			anim.SetInteger ("Direction",0);
+
+		if(y>0 && x==0){
+			Direction = 0;	
 		}
 		else if(y<0 && x==0){
-			//animation.Play("walkDown_"+state)
-			//debug="walkDown_"+state;
-			anim.SetInteger ("Direction",2);
-
+			Direction = 2;
 		}
 		if(x>0 && y==0){
-			//animation.Play("walk_"+state)
-			//debug="walk_"+state;
-			anim.SetInteger ("Direction",1);
+			Direction=1;
 		}	
 		else if(x<0 && y==0){
-			//animation.Play("walk_"+state)
-			//debug="walk_"+state;
-			anim.SetInteger ("Direction",3);
+			Direction=3;
 		}
-		//Debug.Log (debug);
+		if (anim.GetInteger("Direction")!= Direction){
+			anim.SetInteger ("Direction",Direction);
+		}
+		if (anim.GetBool ("Move") != isMoving) {
+			anim.SetBool ("Move",isMoving);
+		}
+
 	}
 }

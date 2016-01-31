@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: f1b3b2cb51c31c848ab155dd6b9f3731
-timeCreated: 1454199262
+guid: 785d5fca1afac774699c76367007fbb4
+timeCreated: 1454195827
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: slash_top1
-    21300002: slash_top2
-    21300004: slash_top3
-    21300006: slash_right1
-    21300008: slash_right2
-    21300010: slash_right3
-    21300012: slash_down1
-    21300014: slash_down2
-    21300016: slash_down3
-    21300018: slash_left1
-    21300020: slash_left2
-    21300022: slash_left3
+    21300000: moonmoon_carry_idle_Down
+    21300002: moonmoon_carry_walk_down1
+    21300004: moonmoon_carry_walk_down2
+    21300006: moonmoon_carry_idle_top
+    21300008: moonmoon_carry_walk_top1
+    21300010: moonmoon_carry_walk_top2
+    21300012: moonmoon_carry_idle_right
+    21300014: moonmoon_carry_walk_right1
+    21300016: moonmoon_carry_walk_rigth2
+    21300018: moonmoon_carry_idle_left
+    21300020: moonmoon_carry_walk_left1
+    21300022: moonmoon_carry_walk_left2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -56,138 +56,138 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: slash_top1
+    - name: moonmoon_carry_idle_Down
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
+        x: 1
+        y: 55
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: slash_top2
+    - name: moonmoon_carry_walk_down1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
+        x: 19
+        y: 55
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: slash_top3
+    - name: moonmoon_carry_walk_down2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
+        x: 37
+        y: 55
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: slash_right1
+    - name: moonmoon_carry_idle_top
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 1
+        y: 37
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: slash_right2
+    - name: moonmoon_carry_walk_top1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
+        x: 19
+        y: 37
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: slash_right3
+    - name: moonmoon_carry_walk_top2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
+        x: 37
+        y: 37
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: slash_down1
+    - name: moonmoon_carry_idle_right
       rect:
         serializedVersion: 2
-        x: 0
-        y: 17
+        x: 1
+        y: 19
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: slash_down2
+    - name: moonmoon_carry_walk_right1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 17
+        x: 19
+        y: 19
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: slash_down3
+    - name: moonmoon_carry_walk_rigth2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 17
+        x: 36
+        y: 19
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: slash_left1
+    - name: moonmoon_carry_idle_left
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 1
+        y: 1
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: slash_left2
+    - name: moonmoon_carry_walk_left1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
+        x: 19
+        y: 1
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: slash_left3
+    - name: moonmoon_carry_walk_left2
       rect:
         serializedVersion: 2
-        x: 30
-        y: 0
+        x: 37
+        y: 1
         width: 16
         height: 16
       alignment: 0
