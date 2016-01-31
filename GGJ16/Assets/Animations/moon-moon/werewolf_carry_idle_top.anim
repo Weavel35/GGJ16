@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: werewolf_idle_carry_top
+  m_Name: werewolf_carry_idle_top
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
