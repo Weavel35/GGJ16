@@ -336,10 +336,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd3200f9fb8441043ac76257263c5515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: default
   speed: 5
   joystick: 3
-  debug: 
   cureHealth: 1
   rb2D: {fileID: 0}
   anim: {fileID: 0}
@@ -463,10 +461,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd3200f9fb8441043ac76257263c5515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: default
   speed: 3
   joystick: 1
-  debug: 
   cureHealth: 1
   rb2D: {fileID: 0}
   anim: {fileID: 0}
@@ -497,9 +493,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1130357521}
   - 212: {fileID: 1130357523}
-  - 95: {fileID: 1130357522}
   - 114: {fileID: 1130357525}
   - 61: {fileID: 1130357524}
+  - 95: {fileID: 1130357522}
   m_Layer: 0
   m_Name: Slash
   m_TagString: Untagged
@@ -528,7 +524,7 @@ Animator:
   m_GameObject: {fileID: 1130357520}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e467de6a82c179145acbeae3ef644f37, type: 2}
+  m_Controller: {fileID: 9100000, guid: 267e96caa0f8f914c833debf15962828, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -592,6 +588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dmg: 1
+  animSlash: {fileID: 0}
 --- !u!1 &1143690761
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,10 +860,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd3200f9fb8441043ac76257263c5515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: default
   speed: 4
   joystick: 2
-  debug: 
   cureHealth: 1
   rb2D: {fileID: 0}
   anim: {fileID: 0}

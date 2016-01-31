@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 
 public class Werewolf : MonoBehaviour {
 	public Animator anim;
+	private bool actif;
 	//public MonoBehaviour playerAttacks;
 	// Use this for initialization
 	void Start () {
@@ -11,9 +12,16 @@ public class Werewolf : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonDown ("Spe_2")) {
-			anim.SetBool("Spe",true);
+		if (Input.GetButtonDown ("Spe_2") ) {
+			if (!actif) {
+				anim.SetInteger ("Move", 3);
+				actif = true;
+			} else {
+				anim.SetInteger ("Move", 1);
+				actif = false;
+			}
+
 		}
 	}
 
-}
+}*/

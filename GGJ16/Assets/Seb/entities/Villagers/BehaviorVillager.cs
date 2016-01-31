@@ -64,7 +64,6 @@ public class BehaviorVillager : MonoBehaviour {
 			getOrientation ();
 			range = Vector2.Distance (transform.position, player.transform.position);
 			transform.Translate (Vector2.MoveTowards (transform.position, player.transform.position, range) * speed * Time.deltaTime);
-			Debug.Log (range);
 		}
 	}
 	void OnTriggerStay2D(Collider2D player){
