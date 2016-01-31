@@ -257,6 +257,8 @@ GameObject:
   - 4: {fileID: 966214600}
   - 212: {fileID: 966214599}
   - 95: {fileID: 966214598}
+  - 50: {fileID: 966214602}
+  - 114: {fileID: 966214601}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Untagged
@@ -273,7 +275,7 @@ Animator:
   m_GameObject: {fileID: 966214597}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3dee9e71508f60545bba46db5447ec2e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8ce7723806f63844b96937fe8ab72037, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -318,11 +320,47 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 966214597}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!114 &966214601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 966214597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3200f9fb8441043ac76257263c5515, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: default
+  speed: 5
+  joystick: 3
+  debug: 
+  cureHealth: 1
+  rb2D: {fileID: 0}
+  anim: {fileID: 0}
+  playerType: 
+--- !u!50 &966214602
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 966214597}
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1039792986
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,6 +371,9 @@ GameObject:
   - 4: {fileID: 1039792989}
   - 212: {fileID: 1039792988}
   - 95: {fileID: 1039792987}
+  - 114: {fileID: 1039792990}
+  - 114: {fileID: 1039792991}
+  - 50: {fileID: 1039792992}
   m_Layer: 0
   m_Name: Vampire
   m_TagString: Untagged
@@ -349,7 +390,7 @@ Animator:
   m_GameObject: {fileID: 1039792986}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b7b7c7e27b0c34c4e929aab88c175be1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 183668ba852339f499e0c1196b09d4fc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -399,6 +440,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+--- !u!114 &1039792990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1039792986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae23fc158b9ec5d4399a589c44d5e52b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+--- !u!114 &1039792991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1039792986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3200f9fb8441043ac76257263c5515, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: default
+  speed: 3
+  joystick: 1
+  debug: 
+  cureHealth: 1
+  rb2D: {fileID: 0}
+  anim: {fileID: 0}
+  playerType: 
+--- !u!50 &1039792992
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1039792986}
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1130357520
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +498,8 @@ GameObject:
   - 4: {fileID: 1130357521}
   - 212: {fileID: 1130357523}
   - 95: {fileID: 1130357522}
+  - 114: {fileID: 1130357525}
+  - 61: {fileID: 1130357524}
   m_Layer: 0
   m_Name: Slash
   m_TagString: Untagged
@@ -423,7 +514,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1130357520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1813660302}
@@ -475,6 +566,32 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!61 &1130357524
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1130357520}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+--- !u!114 &1130357525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1130357520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99465532365bd2a49a22c3733f49d5f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 1
 --- !u!1 &1143690761
 GameObject:
   m_ObjectHideFlags: 0
@@ -649,6 +766,7 @@ GameObject:
   - 50: {fileID: 1813660300}
   - 95: {fileID: 1813660299}
   - 114: {fileID: 1813660303}
+  - 114: {fileID: 1813660304}
   m_Layer: 0
   m_Name: Moon-moon
   m_TagString: Untagged
@@ -747,9 +865,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: default
   speed: 4
-  joystick: 1
+  joystick: 2
   debug: 
   cureHealth: 1
   rb2D: {fileID: 0}
   anim: {fileID: 0}
   playerType: 
+--- !u!114 &1813660304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1813660298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0dc09c6ff4c6e4a9486eb10de6c751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
