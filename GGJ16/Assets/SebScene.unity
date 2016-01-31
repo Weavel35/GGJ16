@@ -300,6 +300,7 @@ GameObject:
   - 212: {fileID: 1813660301}
   - 50: {fileID: 1813660300}
   - 95: {fileID: 1813660299}
+  - 114: {fileID: 1813660303}
   m_Layer: 0
   m_Name: Moon-moon
   m_TagString: Untagged
@@ -335,7 +336,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -385,3 +386,20 @@ Transform:
   - {fileID: 1130357521}
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &1813660303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1813660298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3200f9fb8441043ac76257263c5515, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: default
+  rb2D: {fileID: 0}
+  anim: {fileID: 0}
+  joystick: 1
+  speed: 2
+  playerType: 
