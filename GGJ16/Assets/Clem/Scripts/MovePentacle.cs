@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class MovePentacle : MonoBehaviour {
-
+	
 	public float lerpSpeed = 0.1f;
 	public Transform[] waypoints;
 	private int numPoint = 0;
@@ -17,6 +17,8 @@ public class MovePentacle : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		
 
 		float distCovered = (Time.time - startTime) * lerpSpeed;
         float fracJourney = distCovered / journeyLength;
