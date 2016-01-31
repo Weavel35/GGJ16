@@ -4611,11 +4611,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2355222, guid: f336b4933ff669d40b698013885258dd, type: 2}
       propertyPath: m_SortingOrder
-      value: 500
+      value: 199
       objectReference: {fileID: 0}
     - target: {fileID: 2306584, guid: f336b4933ff669d40b698013885258dd, type: 2}
       propertyPath: m_SortingOrder
-      value: 199
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f336b4933ff669d40b698013885258dd, type: 2}
