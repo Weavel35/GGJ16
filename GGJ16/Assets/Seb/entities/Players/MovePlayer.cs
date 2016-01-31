@@ -5,10 +5,8 @@ public class MovePlayer : Entities {
 	public Rigidbody2D rb2D;
 	//public static bool developerConsoleVisible;
 	public Animator anim;
-<<<<<<< HEAD
-=======
 	//Choisir le numéro du joueur
->>>>>>> seb
+
 	public string playerType;
 	private bool isMoving;
 	private int Direction;

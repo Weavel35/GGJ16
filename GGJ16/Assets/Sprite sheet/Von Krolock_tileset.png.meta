@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9e9a1a4a2383698418736bc5e04a0ea4
-timeCreated: 1454215500
+timeCreated: 1454244435
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -11,6 +11,31 @@ TextureImporter:
     21300008: Von Krolock_tileset_4
     21300010: Von Krolock_tileset_9
     21300012: Von Krolock_tileset_10
+    21300014: Von Krolock_tileset_6
+    21300016: Von Krolock_tileset_7
+    21300018: Von Krolock_tileset_8
+    21300020: Von Krolock_tileset_11
+    21300022: Von Krolock_tileset_12
+    21300024: Von Krolock_tileset_13
+    21300026: Von Krolock_tileset_14
+    21300028: Von Krolock_tileset_15
+    21300030: Von Krolock_tileset_16
+    21300032: Von Krolock_tileset_18
+    21300034: Von Krolock_tileset_19
+    21300036: Von Krolock_tileset_20
+    21300038: Von Krolock_tileset_21
+    21300040: Von Krolock_tileset_29
+    21300042: Von Krolock_tileset_30
+    21300044: Von Krolock_tileset_31
+    21300046: Von Krolock_tileset_32
+    21300048: Von Krolock_tileset_33
+    21300050: Von Krolock_tileset_34
+    21300052: Von Krolock_tileset_35
+    21300054: Von Krolock_tileset_36
+    21300056: Von Krolock_tileset_37
+    21300058: Von Krolock_tileset_38
+    21300060: Von Krolock_tileset_39
+    21300062: Von Krolock_tileset_40
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -61,7 +86,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 91
+        y: 109
         width: 16
         height: 16
       alignment: 0
@@ -72,7 +97,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 19
-        y: 91
+        y: 109
         width: 16
         height: 16
       alignment: 0
@@ -83,7 +108,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 37
-        y: 91
+        y: 109
         width: 16
         height: 16
       alignment: 0
@@ -94,7 +119,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 55
-        y: 91
+        y: 109
         width: 16
         height: 16
       alignment: 0
@@ -105,7 +130,40 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 73
-        y: 88
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 91
         width: 16
         height: 16
       alignment: 0
@@ -115,19 +173,250 @@ TextureImporter:
     - name: Von Krolock_tileset_9
       rect:
         serializedVersion: 2
-        x: 73
-        y: 71
+        x: 55
+        y: 91
         width: 16
         height: 16
-      alignment: 9
-      pivot: {x: 0.48888922, y: 0.5}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Von Krolock_tileset_10
+    - name: Von Krolock_tileset_11
       rect:
         serializedVersion: 2
         x: 73
-        y: 54
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_20
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_21
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_33
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_34
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_37
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_38
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_39
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Von Krolock_tileset_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1
         width: 16
         height: 16
       alignment: 0

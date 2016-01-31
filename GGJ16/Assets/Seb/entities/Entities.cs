@@ -11,10 +11,7 @@ public abstract class Entities : MonoBehaviour {
         cureHealth -= dmg;
 
     }
-<<<<<<< HEAD
-=======
-	
->>>>>>> seb
+
 	// Use this for initialization
 	void Start () {
 	
