@@ -14,7 +14,7 @@ GameObject:
   - 61: {fileID: 6134900}
   - 58: {fileID: 5898304}
   m_Layer: 0
-  m_Name: Villager
+  m_Name: Villager_Seb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

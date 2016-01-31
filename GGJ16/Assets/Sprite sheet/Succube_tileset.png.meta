@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a61b4aeed601cac4bb993c984bcefb1a
-timeCreated: 1454214582
+timeCreated: 1454247287
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,19 @@ TextureImporter:
     21300002: Succube_tileset_1
     21300004: Succube_tileset_2
     21300006: Succube_tileset_3
+    21300008: Succube_tileset_5
+    21300010: Succube_tileset_6
+    21300012: Succube_tileset_7
+    21300014: Succube_tileset_10
+    21300016: Succube_tileset_11
+    21300018: Succube_tileset_12
+    21300020: Succube_tileset_14
+    21300022: Succube_tileset_15
+    21300024: Succube_tileset_16
+    21300026: Succube_tileset_22
+    21300028: Succube_tileset_23
+    21300030: Succube_tileset_24
+    21300032: Succube_tileset_25
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -92,6 +105,149 @@ TextureImporter:
         serializedVersion: 2
         x: 55
         y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_23
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Succube_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1
         width: 16
         height: 16
       alignment: 0
