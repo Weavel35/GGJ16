@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 31/01/2016 02:20:35-->
+<!--Last exported: 31/01/2016 03:56:18-->
 <Tiled2Unity version="1.0.2.4">
   <AssignMaterial mesh="mesh_0001" material="tiles satanus" />
   <AssignMaterial mesh="mesh_0002" material="tiles satanus" />
@@ -140,6 +140,9 @@
         <GameObject name="TileObject">
           <GameObject name="tile_obj" copy="mesh_tile_0420" sortingLayerName="" sortingOrder="7" x="0" y="16" />
         </GameObject>
+      </GameObject>
+      <GameObject name="RectangleObject" x="95.9375" y="-621.062" rotation="0">
+        <BoxCollider2D width="0.218056" height="18.1875" />
       </GameObject>
     </GameObject>
   </Prefab>

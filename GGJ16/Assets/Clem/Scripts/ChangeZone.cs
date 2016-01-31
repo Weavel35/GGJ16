@@ -18,10 +18,6 @@ public class ChangeZone : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D coll) {
-		
-		if(coll.tag.Equals("Player")){
-			Debug.Log("player!");
-		}
 		player collisionPlayer = coll.GetComponent<player>();
 		if(collisionPlayer!=null)
 			if(!collisionPlayer.isTeleported ) {
