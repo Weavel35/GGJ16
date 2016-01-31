@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-﻿
-=======
 ﻿using UnityEngine;
 using System.Collections;
 
@@ -16,4 +13,3 @@ public class Virgin : MonoBehaviour {
 	
 	}
 }
->>>>>>> seb
