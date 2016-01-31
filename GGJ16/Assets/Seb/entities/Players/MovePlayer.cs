@@ -49,11 +49,13 @@ public class MovePlayer : Entities {
 		else if(x<0 && y==0){
 			Direction=3;
 		}
-		if (anim.GetInteger("Direction")!= Direction){
-			anim.SetInteger ("Direction",Direction);
-		}
-		if (anim.GetBool ("Move") != isMoving) {
-			anim.SetBool ("Move",isMoving);
+		if (!anim.GetBool ("Spe")) {
+			if (anim.GetInteger ("Direction") != Direction) {
+				anim.SetInteger ("Direction", Direction);
+			}
+			if (anim.GetBool ("Move") != isMoving) {
+				anim.SetBool ("Move", isMoving);
+			}
 		}
 
 	}
