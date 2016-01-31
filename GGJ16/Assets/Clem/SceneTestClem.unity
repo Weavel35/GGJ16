@@ -592,7 +592,7 @@ Transform:
   - {fileID: 2121335821}
   - {fileID: 703486883}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 13
 --- !u!1 &312242991
 GameObject:
   m_ObjectHideFlags: 0
@@ -1800,7 +1800,7 @@ Transform:
   - {fileID: 1510855193}
   - {fileID: 99614514}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
 --- !u!1 &910766174
 GameObject:
   m_ObjectHideFlags: 0
@@ -3978,7 +3978,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1885161135}
   m_Layer: 0
-  m_Name: Links 2 -3 (2)
+  m_Name: Links 2 -3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
