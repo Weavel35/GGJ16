@@ -14,13 +14,13 @@ public class ZObject2D : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D coll) {
-		if(coll.tag.Equals("Player")) {
+		if(coll.tag.Equals("Player") || coll.tag.Equals("PNJ")) {
 			coll.GetComponent<SpriteRenderer>().sortingOrder = 198;
 		}
 	}
 
 	void OnTriggerExit2D(Collider2D coll) {
-		if(coll.tag.Equals("Player")) {
+		if(coll.tag.Equals("Player") || coll.tag.Equals("PNJ")) {
 			coll.GetComponent<SpriteRenderer>().sortingOrder = 200;
 		}
 	}

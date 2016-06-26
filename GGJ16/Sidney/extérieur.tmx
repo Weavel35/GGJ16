@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="45" height="48" tilewidth="16" tileheight="16" nextobjectid="6">
+ <tileset firstgid="1" name="tiles satanus" tilewidth="16" tileheight="16" tilecount="1000">
+  <image source="../Documents/tiles satanus.png" width="640" height="400"/>
+ </tileset>
+ <layer name="background" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzdlmluwyAQhc3Vuv3ySbr9IDfpJjW+bKdSUekEzKyA+6SnRMgevnkZEy+Lv67CslyDb8C34LugW/PWGfa4Bz+AH8FP4GflWg/mF/Ar+A38Dv5QrqW6yR7M1v7PzNJ+Ut0Yyt89mNeftRh+zdFG2F+TRZ5D8km5DyUzC+bcVsy12ZiZuXfOpWeGW7tXzrV5ljCPzllSe3TOFrXxPpZ1a/MciZ9Uc8/9pFP463O4XPOydE5GMktzbv1+uB+NY6GelbyYcT1pznvcOBftu5k259Y5lvjwHlpuTc4t5hlzbmnGnFsamfMq7IWS82qQc+2a1uzWcsZ79DaHuZbLzMyYmzurknelvXs5zNz+pP+XI5i/pcm5NYNe0uQ8ipmbM+4Xz0rei5e4OZfuz3ljB2ZNzjnzEXMuzbmXuDlT3yk4zJpnn3ot5TzlnB1b4/yh/OdaMVNlfcbWeqMwU7lnZM7PlRYvtR/veU73fh6A2UtSZsp1XtoEzFR7yfN5nYWZ4yMwenJb97h37xc6K4sa
+  </data>
+ </layer>
+ <layer name="grille" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt1bEJwDAMRUEZvLI3DJnGZIY4nSEZQEF3oOZXr1MEQD1He2/nx5bJH5vn6hvbPa7kzQBQTfebAQAAACCFG+3GBlw=
+  </data>
+ </layer>
+ <layer name="collision" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmVtqwzAQRW2Tn773kDYLKX1Rm6ygj//SJi10JaXPreQri2hX0xDoFY2IIiR5pIwiY3zhYmTs0YlszUjOcZ5lJ/ApfAafw7OMxzIepy4Q7w6+hx/gEfzLxCs8h8fMzI+I9wK/wm/wewTmD2bmT8SbaDG5mTnVA+uUyPwNH+ZL/zAy+46Ribm/4DpSGAfwpWJqPzGYRUyduUS7UviEhjheFVl2Dd8UzWOmqGPumDtms/qL/qk5NJS5n6/ma5sHhNgyT1XEHCqYbde5xqjU8rXNQ8/xiMkspeZsU9tXm2DmVse8Xj/U2FRmWw6gzPlUzDIHVIFzPgVzSH529aOvtU21omnMpn7nLWYeFfW19Ymwfq/LH2IOj4v/fY04iph6DMGiXmOb36b6KqS2vxiYS0vs0JpuqqXquSlhXRKrtjwHvpMpmUPVVuZZOjyjqMwcNa7JzLHVjXMYs+/9bWU2rdPW3WurvPr6vW5OUPMztSb77rXVul/ly9/hen4+NaVuHXAbuNdW5WIJYd6E2sxc9x3LZ05tilnsU3r56n1SpjFW43I/A9f4ybGz/QfkYs4iMpv2KfJ7wNDBrD8TG2+q978JdTAFs14nY89ZDma9Tvp+cw5hnnisJVLnQsm8hZq7A+/Ce/A+vN3gcwfwH9hZggo=
+  </data>
+ </layer>
+ <layer name="foreground" width="45" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmW0KwjAMhtNdRW/gvK1eQPAM3kHwAn7+8gIdghUUt1it0a5NujwQBlkZL12+ugF0WUA8lhGfpQyPWyw2X5rUWKPonlQAtbNp1Zucn5mZV9/Z41OUucZFMYyJ7/JdTZdav0Pgms25hivpocw4pecKBbxvHPcE57iFruZLeklkVHM/hPKeo2Zu+Hpp21cL7LErnY2VP9FZgh+b3AISIGEmw9j7tcmqgoY0zW2dI/P8xxCrHoXmgBjY8JJi0Vk0DjgW2/XSF/eh+7l4aJLEJ81rz7rUfQz3TgzWpAwHqd+Kd67X750dnB2dbQ1f30noufsK56+iAQ==
+  </data>
+ </layer>
+ <objectgroup name="objets">
+  <object id="1" type="porteOut" gid="460" x="288.182" y="400" width="16" height="16"/>
+  <object id="3" type="porteOut" gid="460" x="128" y="111.75" width="16" height="16"/>
+  <object id="4" type="porteOut" gid="460" x="528" y="576" width="16" height="16"/>
+  <object id="5" type="porteOut" gid="460" x="640.25" y="384.25" width="16" height="16"/>
+ </objectgroup>
+</map>

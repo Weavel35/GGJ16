@@ -1,7 +1,7 @@
-﻿/*using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
-public class Werewolf : MonoBehaviour {
+public class Werewolf : MonoBehaviour {/*
 	public Animator anim;
 	private bool actif;
 	//public MonoBehaviour playerAttacks;
@@ -23,5 +23,5 @@ public class Werewolf : MonoBehaviour {
 
 		}
 	}
-
-}*/
+	*/
+}
