@@ -14,7 +14,7 @@ public class Lights : MonoBehaviour {
     {
         if (col.CompareTag(""))
         {
-            player.Damage(1);
+            //player.Damage(1);
         }
 
     }

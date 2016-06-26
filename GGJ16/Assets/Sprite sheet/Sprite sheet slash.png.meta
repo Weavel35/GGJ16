@@ -1,9 +1,45 @@
 fileFormatVersion: 2
-guid: 562b4462eb41d5e45844ee163fe99619
-timeCreated: 1454179780
+guid: f1b3b2cb51c31c848ab155dd6b9f3731
+timeCreated: 1466979156
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: slash_top1
+    21300002: slash_top2
+    21300004: slash_top3
+    21300006: slash_right1
+    21300008: slash_right2
+    21300010: slash_right3
+    21300012: slash_down1
+    21300014: slash_down2
+    21300016: slash_down3
+    21300018: slash_left1
+    21300020: slash_left2
+    21300022: slash_left3
+    21300024: Sprite sheet slash(2)_0
+    21300026: Sprite sheet slash(2)_1
+    21300028: Sprite sheet slash(2)_2
+    21300030: Sprite sheet slash(2)_3
+    21300032: Sprite sheet slash(2)_4
+    21300034: Sprite sheet slash(2)_5
+    21300036: Sprite sheet slash(2)_6
+    21300038: Sprite sheet slash(2)_7
+    21300040: Sprite sheet slash(2)_8
+    21300042: Sprite sheet slash(2)_9
+    21300044: Sprite sheet slash(2)_10
+    21300046: Sprite sheet slash(2)_11
+    21300048: Sprite sheet slash_0
+    21300050: Sprite sheet slash_1
+    21300052: Sprite sheet slash_2
+    21300054: Sprite sheet slash_3
+    21300056: Sprite sheet slash_4
+    21300058: Sprite sheet slash_5
+    21300060: Sprite sheet slash_6
+    21300062: Sprite sheet slash_7
+    21300064: Sprite sheet slash_8
+    21300066: Sprite sheet slash_9
+    21300068: Sprite sheet slash_10
+    21300070: Sprite sheet slash_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -49,7 +85,139 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Sprite sheet slash_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sprite sheet slash_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sprite sheet slash_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sprite sheet slash_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sprite sheet slash_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sprite sheet slash_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sprite sheet slash_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sprite sheet slash_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sprite sheet slash_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sprite sheet slash_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sprite sheet slash_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sprite sheet slash_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 
