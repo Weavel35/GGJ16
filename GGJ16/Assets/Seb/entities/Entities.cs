@@ -23,14 +23,14 @@ public abstract class Entities : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetButtonDown("Att_"+joystick))
-			StartCoroutine(Attack());
+		/*if(Input.GetButtonDown("Att_"+joystick))
+			StartCoroutine(Attack());*/
 
 	}
 
-	private IEnumerator Attack() {
+/*	private IEnumerator Attack() {
 
-		
+		Debug.Log("nopenope");
 		attck = true;
 		animator.SetBool("Attack", true);
 		yield return null;
@@ -38,6 +38,6 @@ public abstract class Entities : MonoBehaviour {
 
 		yield return new WaitForSeconds(0.8f);
 		attck = false;
-
-	}
+		
+	}*/
 }
