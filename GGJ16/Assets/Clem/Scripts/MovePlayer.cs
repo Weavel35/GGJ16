@@ -27,6 +27,7 @@ public class MovePlayer : Entities {
 
 	}
 	void Update() {
+		/*
 		float x = Input.GetAxisRaw("Horizontal_"+joystick);
 		float y = Input.GetAxisRaw("Vertical_"+joystick);
 		rb2D.velocity=new Vector2(x, y).normalized*speed;
@@ -60,7 +61,7 @@ public class MovePlayer : Entities {
 		if(anim.GetBool("Move")!=isMoving && !attck) {
 			anim.SetBool("Move", isMoving);
 		}
-
+		*/
 	}
 
 	private IEnumerator Attack() {

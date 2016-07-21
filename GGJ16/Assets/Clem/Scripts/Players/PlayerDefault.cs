@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public abstract class PlayerDefault : MonoBehaviour {
 	public enum PlayerType { Werewolf, Vampire, Succubus, Zombie };
@@ -16,7 +17,7 @@ public abstract class PlayerDefault : MonoBehaviour {
 	private bool isMoving;
 	private bool is_atk = false;
 	private Direction direction; //Défini la direction 0:top, 1:right, 2: bottom, 3:left
-	public int joystickNum;
+	public int playerNum;
 
 	//ChangeZones
 	public bool isTeleported { get; set; }
@@ -49,16 +50,18 @@ public abstract class PlayerDefault : MonoBehaviour {
 		isTeleported = false;
 	}
 	void Update() {
-		float x = Input.GetAxisRaw("Horizontal_" + joystickNum);
-		float y = Input.GetAxisRaw("Vertical_" + joystickNum);
-		rb2D.velocity = new Vector2(x, y).normalized * 5 * speed;
+		float x = Input.GetAxisRaw("Horizontal_" + playerNum);
+		float y = Input.GetAxisRaw("Vertical_" + playerNum);
 
 		if(is_atk)
 			return;
 
+		rb2D.velocity = new Vector2(x, y).normalized * 5 * speed;
 
-		if(Input.GetButtonDown("Att_" + joystickNum))
+		if(Input.GetButtonDown("Att_" + playerNum)) {
+			is_atk = true;
 			StartCoroutine(Attack());
+		}
 
 
 
@@ -90,22 +93,37 @@ public abstract class PlayerDefault : MonoBehaviour {
 
 	public IEnumerator Attack() {
 
-		Debug.Log("attack" + joystickNum);
-		is_atk = true;
+		Debug.Log("attack" + playerNum);
+		GameObject attack = Instantiate(Resources.Load("Attack") as GameObject);
+		attack.transform.position = this.transform.position + getVectorDirection();
 		animator.SetBool("Attack", true);
-		Debug.Log(	Time.timeSinceLevelLoad);
-		yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
-		Debug.Log(	Time.timeSinceLevelLoad);
+		yield return new WaitForEndOfFrame();
+		//Debug.Log(	animator.GetCurrentAnimatorStateInfo(0).length + " " + Time.timeSinceLevelLoad);
+		//yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+		//Debug.Log(	Time.timeSinceLevelLoad);
 
-		while(animator.GetBool("Attack")) {
-			//if (Animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !Animator.IsInTransition(0))
-			
-			
-		}
+		
+		yield return new WaitForSeconds(1f);
+		animator.SetBool("Attack", false);	
 
-		yield return new WaitForSeconds(0.8f);
 		is_atk = false;
 
+	}
+
+	private Vector3 getVectorDirection() {
+		switch(direction) {
+			case Direction.top:
+				return new Vector3(0,1,0);
+			case Direction.bottom:
+				return new Vector3(0,-1,0);
+			case Direction.right:
+				return new Vector3(1,0,0);
+			case Direction.left:
+				return new Vector3(-1,0,0);
+			default:
+				Debug.Log("getAttackDirection what?");
+				return new Vector3(0,0,0);
+		}
 	}
 
 	public void OnTriggerEnter2D(Collider2D other) {
