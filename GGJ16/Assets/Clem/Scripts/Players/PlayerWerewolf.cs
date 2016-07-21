@@ -3,9 +3,10 @@
 public class PlayerWerewolf : PlayerDefault {
 
 	public override void Start() {
+		PV = 3;
 		base.Start();
 		playerType = PlayerType.Werewolf;
-		PV = 3;
+		
 	}
 	public override void SpecialAction() {
 		//charge

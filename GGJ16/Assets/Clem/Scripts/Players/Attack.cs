@@ -16,19 +16,21 @@ public class Attack : MonoBehaviour {
 	}
 
 	IEnumerator AttackTimeLine() {
-		yield return new WaitForSeconds(2f);
+		yield return new WaitForSeconds(0.2f);
 		Destroy(this.gameObject);
 	}
 
-	void OnCollisionEnter(Collision collision) {
-		Debug.Log(collision.gameObject.name);
-		PlayerDefault playDef = collision.gameObject.GetComponent<PlayerDefault>();
-		if(playDef != null) {
-			Debug.Log(playDef.playerNum);
+	void OnTriggerEnter2D(Collider2D coll) {
+		Debug.Log(coll.gameObject.name);
+		PlayerDefault playerColl = coll.gameObject.GetComponent<PlayerDefault>();
+		
+		if(playerColl != null) {
+			if(playerColl.playerNum != player.playerNum) {
+				playerColl.Hit(player.atk_pow);
+
+			}
 		}
 
-		  foreach (ContactPoint contact in collision.contacts) {
-            Debug.DrawRay(contact.point, contact.normal, Color.white);
-        }
 	}
+
 }

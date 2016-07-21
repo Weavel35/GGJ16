@@ -9,9 +9,6 @@ public class DefaultPlayer : MonoBehaviour {
 	public Collider2D tpOrigin { get; set; }
 	private Vector2 Spawn;
 
-	
-
-
 	// Use this for initialization
 	void Start () {
 		Spawn = this.transform.position; 

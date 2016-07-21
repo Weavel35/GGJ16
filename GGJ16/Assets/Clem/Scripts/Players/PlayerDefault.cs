@@ -21,10 +21,12 @@ public abstract class PlayerDefault : MonoBehaviour {
 
 	//ChangeZones
 	public bool isTeleported { get; set; }
+
 	public Collider2D tpOrigin { get; set; }
 	private Vector2 Spawn;
 
 	//stats
+	private int PV_start;
 	public int PV = 2;
 	public int atk_pow = 1;
 	public float atk_dist = 1;
@@ -35,6 +37,7 @@ public abstract class PlayerDefault : MonoBehaviour {
 
 
 	public virtual void Start() {
+		PV_start = PV;
 		rb2D = GetComponent<Rigidbody2D>();
 		rb2D.freezeRotation = true;
 		animator = GetComponent<Animator>();
@@ -53,8 +56,11 @@ public abstract class PlayerDefault : MonoBehaviour {
 		float x = Input.GetAxisRaw("Horizontal_" + playerNum);
 		float y = Input.GetAxisRaw("Vertical_" + playerNum);
 
-		if(is_atk)
+		if(is_atk) {
+			rb2D.velocity = Vector2.zero;
 			return;
+
+		}
 
 		rb2D.velocity = new Vector2(x, y).normalized * 5 * speed;
 
@@ -96,6 +102,7 @@ public abstract class PlayerDefault : MonoBehaviour {
 		Debug.Log("attack" + playerNum);
 		GameObject attack = Instantiate(Resources.Load("Attack") as GameObject);
 		attack.transform.position = this.transform.position + getVectorDirection();
+		attack.GetComponent<Attack>().player = this;
 		animator.SetBool("Attack", true);
 		yield return new WaitForEndOfFrame();
 		//Debug.Log(	animator.GetCurrentAnimatorStateInfo(0).length + " " + Time.timeSinceLevelLoad);
@@ -103,7 +110,7 @@ public abstract class PlayerDefault : MonoBehaviour {
 		//Debug.Log(	Time.timeSinceLevelLoad);
 
 		
-		yield return new WaitForSeconds(1f);
+		yield return new WaitForSeconds(0.2f);
 		animator.SetBool("Attack", false);	
 
 		is_atk = false;
@@ -140,6 +147,31 @@ public abstract class PlayerDefault : MonoBehaviour {
 
 			Debug.Log("coucou");
 		}
+	}
+
+
+	public void Hit(int damage) {
+		if(	PV - damage < 0) {
+			Dead();
+		} else
+			PV -= damage;
+	}
+
+	private void Dead() {
+		Debug.Log("dead " + this.gameObject.name);
+		this.transform.position = Spawn;
+		PV = PV_start;
+		animator.SetBool("Virgin", false);
+		direction = 0;
+		animator.SetInteger("Direction", (int) direction);
+		isMoving = false;
+		isTeleported = false;
+		carryVirgin = false;
+		/*TODO 
+		*	Vierge en fuite?
+		*	frames d'invincibilité
+		*	
+		*/
 	}
 
 	public abstract void SpecialAction();

@@ -3,9 +3,10 @@
 public class PlayerSuccubus : PlayerDefault {
 
 	public override void Start() {
+		PV = 3;
+
 		base.Start();
 		playerType = PlayerType.Succubus;
-		PV = 3;
 		speed = 1.1f;
 		atk_dist = 2.5f;
 	}
