@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class PlayerZombie : PlayerDefault {
+public class PlayerZombie : PlayerDefaultCharacter {
 
 	public override void Start() {
 		PV = 5;

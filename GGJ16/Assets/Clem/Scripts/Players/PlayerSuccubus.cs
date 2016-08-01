@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class PlayerSuccubus : PlayerDefault {
+public class PlayerSuccubus : PlayerDefaultCharacter {
 
 	public override void Start() {
 		PV = 3;

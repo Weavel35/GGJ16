@@ -22,7 +22,7 @@ public class ChangeZone : MonoBehaviour {
 		if(blocked)
 			return;
 
-		PlayerDefault collisionPlayer = coll.GetComponent<PlayerDefault>();
+		PlayerDefaultCharacter collisionPlayer = coll.GetComponent<PlayerDefaultCharacter>();
 		Debug.Log(collisionPlayer);
 		if(collisionPlayer!=null)
 			if(!collisionPlayer.isTeleported ) {
@@ -34,7 +34,7 @@ public class ChangeZone : MonoBehaviour {
 	}
 
 	void OnTriggerExit2D(Collider2D coll) {
-		PlayerDefault collisionPlayer = coll.GetComponent<PlayerDefault>();
+		PlayerDefaultCharacter collisionPlayer = coll.GetComponent<PlayerDefaultCharacter>();
 		if(collisionPlayer!=null)
 			if(collisionPlayer.isTeleported && !collisionPlayer.tpOrigin.Equals(thisCollider)) {
 				collisionPlayer.tpOrigin = null;

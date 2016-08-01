@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Attack : MonoBehaviour {
 
-	public PlayerDefault player;
+	public PlayerDefaultCharacter player;
 
 	// Use this for initialization
 	void Start () {
@@ -22,7 +22,7 @@ public class Attack : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D coll) {
 		Debug.Log(coll.gameObject.name);
-		PlayerDefault playerColl = coll.gameObject.GetComponent<PlayerDefault>();
+		PlayerDefaultCharacter playerColl = coll.gameObject.GetComponent<PlayerDefaultCharacter>();
 		
 		if(playerColl != null) {
 			if(playerColl.playerNum != player.playerNum) {

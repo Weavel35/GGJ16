@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class PlayerWerewolf : PlayerDefault {
+public class PlayerWerewolf : PlayerDefaultCharacter {
 
 	public override void Start() {
 		PV = 3;

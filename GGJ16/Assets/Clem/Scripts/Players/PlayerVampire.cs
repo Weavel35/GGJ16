@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class PlayerVampire : PlayerDefault {
+public class PlayerVampire : PlayerDefaultCharacter {
 
 	public override void Start() {
 		base.Start();

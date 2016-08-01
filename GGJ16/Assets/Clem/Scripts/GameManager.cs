@@ -5,8 +5,9 @@ public class GameManager : MonoBehaviour {
 
 	public static GameManager Instance;
 
-	public 
-
+	public int playerNumbers = 4;
+	public PlayerDefaultCharacter[] Players; 
+		
 
 	// Use this for initialization
 	void Start () {

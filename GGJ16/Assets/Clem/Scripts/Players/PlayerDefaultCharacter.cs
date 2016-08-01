@@ -2,7 +2,7 @@
 using System.Collections;
 using System;
 
-public abstract class PlayerDefault : MonoBehaviour {
+public abstract class PlayerDefaultCharacter : MonoBehaviour {
 	public enum PlayerType { Werewolf, Vampire, Succubus, Zombie };
 	public enum Direction : int { top = 0, right = 1, bottom = 2, left = 3 };
 
@@ -136,18 +136,18 @@ public abstract class PlayerDefault : MonoBehaviour {
 	}
 
 	public void OnTriggerEnter2D(Collider2D other) {
-		if(other.gameObject.CompareTag("Virgin")) {
+		if(other.gameObject.CompareTag("Virgin") && !stunned && !invincible && !carryVirgin) {
 			/*other.gameObject.SetActive (false);*/
-			Destroy(other);
+			Destroy(other.gameObject);
 			carryVirgin = true;
 			animator.SetBool("Virgin", carryVirgin);
-			Debug.Log("coucou");
+			Debug.Log("Virgin");
 		} else if(other.gameObject.CompareTag("Pentacle") && carryVirgin) {
 			/*other.gameObject.SetActive (false);*/
 			carryVirgin = false;
 			animator.SetBool("Virgin", carryVirgin);
 
-			Debug.Log("coucou");
+			Debug.Log("Virgin pentacle");
 		}
 	}
 
@@ -157,13 +157,17 @@ public abstract class PlayerDefault : MonoBehaviour {
 			return;
 		invincible = true;
 
+		animator.SetBool("Virgin", false);
+		GameObject droppedVirgin = Instantiate(Resources.Load("Virgin") as GameObject);
+		droppedVirgin.transform.position = this.transform.position;
+
 		if(PV - damage < 0) {
 			Dead();
 		} else {
 			PV -= damage;
 		}
 		StartCoroutine(invincibilityFrames());
-
+		
 	}
 
 	private void Dead() {
@@ -178,7 +182,6 @@ public abstract class PlayerDefault : MonoBehaviour {
 		carryVirgin = false;
 		/*TODO 
 		*	Vierge en fuite?
-		*	frames d'invincibilité
 		*	
 		*/
 	}
