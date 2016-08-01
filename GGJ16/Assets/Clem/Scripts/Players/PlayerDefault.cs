@@ -4,7 +4,7 @@ using System;
 
 public abstract class PlayerDefault : MonoBehaviour {
 	public enum PlayerType { Werewolf, Vampire, Succubus, Zombie };
-	public enum Direction:int {  top = 0, right = 1, bottom = 2, left = 3};
+	public enum Direction : int { top = 0, right = 1, bottom = 2, left = 3 };
 
 	//Choisir le numéro du joueur
 	public PlayerType playerType { get; set; }
@@ -31,10 +31,12 @@ public abstract class PlayerDefault : MonoBehaviour {
 	public int atk_pow = 1;
 	public float atk_dist = 1;
 	public float speed = 1.0f;
+	public float invicibilityLength = 1.5f;
+
 	private bool carryVirgin = false;
 	private bool attck = false;
 	private bool stunned = false;
-
+	private bool invincible = false;
 
 	public virtual void Start() {
 		PV_start = PV;
@@ -49,7 +51,7 @@ public abstract class PlayerDefault : MonoBehaviour {
 		carryVirgin = false;
 		animator.SetBool("Move", isMoving);
 
-		Spawn = this.transform.position; 
+		Spawn = this.transform.position;
 		isTeleported = false;
 	}
 	void Update() {
@@ -87,8 +89,8 @@ public abstract class PlayerDefault : MonoBehaviour {
 		} else if(x < 0 && y == 0) {
 			direction = Direction.left;
 		}
-		if(animator.GetInteger("Direction") !=(int) direction) {
-			animator.SetInteger("Direction",(int) direction);
+		if(animator.GetInteger("Direction") != (int) direction) {
+			animator.SetInteger("Direction", (int) direction);
 		}
 
 		if(animator.GetBool("Move") != isMoving && !is_atk) {
@@ -109,9 +111,9 @@ public abstract class PlayerDefault : MonoBehaviour {
 		//yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
 		//Debug.Log(	Time.timeSinceLevelLoad);
 
-		
-		yield return new WaitForSeconds(0.2f);
-		animator.SetBool("Attack", false);	
+
+		yield return new WaitForSeconds(0.3f);
+		animator.SetBool("Attack", false);
 
 		is_atk = false;
 
@@ -120,16 +122,16 @@ public abstract class PlayerDefault : MonoBehaviour {
 	private Vector3 getVectorDirection() {
 		switch(direction) {
 			case Direction.top:
-				return new Vector3(0,1,0);
+				return new Vector3(0, 1, 0);
 			case Direction.bottom:
-				return new Vector3(0,-1,0);
+				return new Vector3(0, -1, 0);
 			case Direction.right:
-				return new Vector3(1,0,0);
+				return new Vector3(1, 0, 0);
 			case Direction.left:
-				return new Vector3(-1,0,0);
+				return new Vector3(-1, 0, 0);
 			default:
 				Debug.Log("getAttackDirection what?");
-				return new Vector3(0,0,0);
+				return new Vector3(0, 0, 0);
 		}
 	}
 
@@ -151,10 +153,17 @@ public abstract class PlayerDefault : MonoBehaviour {
 
 
 	public void Hit(int damage) {
-		if(	PV - damage < 0) {
+		if(invincible)
+			return;
+		invincible = true;
+
+		if(PV - damage < 0) {
 			Dead();
-		} else
+		} else {
 			PV -= damage;
+		}
+		StartCoroutine(invincibilityFrames());
+
 	}
 
 	private void Dead() {
@@ -172,6 +181,36 @@ public abstract class PlayerDefault : MonoBehaviour {
 		*	frames d'invincibilité
 		*	
 		*/
+	}
+
+
+	IEnumerator invincibilityFrames() {
+		Color c = this.GetComponent<SpriteRenderer>().color;
+		c.a = 0.25f;
+		this.GetComponent<SpriteRenderer>().color = c;
+
+		float startTime = Time.timeSinceLevelLoad;
+		float blinkLenght = 0.3f;
+		float blinkTime = startTime + blinkLenght;
+		while(Time.timeSinceLevelLoad < startTime + invicibilityLength) {
+			yield return new WaitForEndOfFrame();
+			if(Time.timeSinceLevelLoad < blinkTime) {
+				if(c.a == 0.75f) {
+					c.a = 0.25f;
+					this.GetComponent<SpriteRenderer>().color = c;
+					blinkTime += blinkLenght;
+				} else {
+					c.a = 0.75f;
+					this.GetComponent<SpriteRenderer>().color = c;
+				}
+			}
+		}
+
+
+		c.a = 1f;
+		this.GetComponent<SpriteRenderer>().color = c;
+		invincible = false;
+
 	}
 
 	public abstract void SpecialAction();

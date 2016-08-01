@@ -3622,6 +3622,10 @@ Prefab:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 21237112, guid: 49911c172f00def448dc1782503e3f81, type: 2}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400958, guid: 49911c172f00def448dc1782503e3f81, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 49911c172f00def448dc1782503e3f81, type: 2}
