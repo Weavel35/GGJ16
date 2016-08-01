@@ -5,6 +5,7 @@ Sol & autres
 198	grilles, portes
 199	PNJ
 200	players, 
+209	slice
 210	toitures, murs N
 211	par dessus murs
 215	players+

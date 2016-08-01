@@ -32,8 +32,8 @@ GameObject:
   - 58: {fileID: 5867512}
   - 58: {fileID: 5832242}
   - 61: {fileID: 6114668}
-  - 114: {fileID: 11438974}
   - 114: {fileID: 11400958}
+  - 114: {fileID: 11499244}
   m_Layer: 8
   m_Name: character
   m_TagString: Player
@@ -48,8 +48,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 177370}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4, y: 6.5, z: 0}
+  m_LocalPosition: {x: -0.48999977, y: 5.27, z: 0}
   m_LocalScale: {x: 0.95, y: 0.95, z: 0.95}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 498544}
   m_Father: {fileID: 0}
@@ -63,6 +64,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0, z: -12}
   m_LocalScale: {x: 1, y: 2.1875, z: 1.0937499}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 459446}
   m_RootOrder: 0
@@ -175,7 +177,7 @@ Animator:
   m_GameObject: {fileID: 177370}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 988182fc131b0fc49bb0a2bc74c06a87, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0d1dd9c5f1fd7014684c789abfd4990d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -194,11 +196,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd3200f9fb8441043ac76257263c5515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   joystick: 1
-  cureHealth: 1
+  PV: 2
+  atk_pow: 1
+  atk_dist: 1
+  speed: 5
+  carryVirgin: 0
+  attck: 0
+  stunned: 0
   playerType: 
---- !u!114 &11438974
+--- !u!114 &11499244
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -206,9 +213,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 177370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f63b19ce1e4d7274b800f5a3e1d2627b, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b6845e56231474438f16e13d64153da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joystickNum: 1
+  PV: 2
+  atk_pow: 1
+  atk_dist: 1
+  speed: 1
 --- !u!124 &12462052
 Behaviour:
   m_ObjectHideFlags: 1
